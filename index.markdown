@@ -5,4 +5,4 @@
 layout: home
 ---
 
-Hello, guys. This is my first Jekyll page. 
+Hello, guys. This is my first Jekyll's Index page. 
