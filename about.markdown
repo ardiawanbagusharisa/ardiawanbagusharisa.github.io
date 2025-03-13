@@ -15,7 +15,9 @@ My portfolios:
 * [LinkedIn][LinkedIn] 
 * [GitHub][GitHub]
 
-# Ref links
+
+
+
 [Scholar]: https://scholar.google.com/citations?user=cnGMg2EAAAAJ&hl=en&oi=ao 
 [LinkedIn]: https://www.linkedin.com/in/ardiawanbagusharisa/
 [GitHub]: https://github.com/ardiawanbagusharisa 
