@@ -40,7 +40,7 @@ Procedural Low-Poly Buildings using L-System for Turn-based Tactic Game MECH. AI
 ### Skills 
 * Programming: C++, C#, GDScript  
 * Research interest: Procedural Content Generation (PCG), Game AI, Game Design  
-* Software Lifecycle: Agile, DevOps
+* Software Lifecycle: Agile, DevOps (learning)
 * Other Tools: Unity, Godot, Git, .NET, PostGreSQL
 
 --- 
@@ -74,6 +74,13 @@ Procedural Low-Poly Buildings using L-System for Turn-based Tactic Game MECH. AI
 * **Bachelor - Computer Science**
   * **UDINUS**, Feb 2025 - Present.
     * Research on dynamic diffuculty adjustment. 
+
+--- 
+
+### Association & Community 
+* **Indonesian Board Game Designer** - 2015-Present. 
+* **Indie Game Jobs Global** - 2017-2018.
+* **Inde Game Central Java** - 2015-Present. 
 
 --- 
 
