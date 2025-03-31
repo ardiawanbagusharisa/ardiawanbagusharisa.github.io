@@ -69,6 +69,7 @@ The followings are list of game journals and conferences.
 | Name | Description |
 | --- | --- |
 | [IEEE Conference on Games (COG)](https://cog2025.inesc-id.pt/) | Deadline: January → August <br> Fee: 650 Eur | 
+| [International Conference on Entertainment Computing](https://icec2025.entcomp.org/cfp/) | Deadline: March → August conference | 
 | [Digra Conference](https://digra.org/conferences/) | Deadline: November → June conference | 
 | [CEEGS Game Studies Conference](https://ceegs.fsv.cuni.cz/) | Deadline: 14 April → September conference  | 
 | [PCGWorkshop](https://pcgworkshop.com/cfp.php) | Deadline: January → April conference | 
