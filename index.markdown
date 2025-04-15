@@ -106,7 +106,11 @@ Here are some of my portfolios:
   * [Scholar][Scholar]
   * [LinkedIn][LinkedIn] 
   * [GitHub][GitHub]
-  * [Web][Web]
+  * [Web][Web]  
+
+<br>  
+
+Press `ctrl + p` to save my CV as a pdf. 😄  
 
 [Scholar]: https://scholar.google.com/citations?user=cnGMg2EAAAAJ&hl=en&oi=ao 
 [LinkedIn]: https://www.linkedin.com/in/ardiawanbagusharisa/

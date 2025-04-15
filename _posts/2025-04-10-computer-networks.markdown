@@ -9,26 +9,30 @@ tags: Networking
 This is my personal note that contains the summary of Computer Networks course, from the book "Computer Networking: A Top-Down Approach" by James F. Kurose & Keith W. Ross. 
 
 ## Chapters Overview 
-1. Computer Networks & Internet 
-2. Application Layer 
-3. Transport Layer 
-4. The Network Layer: Data Plane 
-5. The Network Layer: Control Plane 
-6. The Link Layer & LAN 
-7. Wireless & Mobile Network 
-8. Security in Computer Network 
+[1. Computer Networks & Internet](##Chapter-1-Computer-Networks-&-Internet)  
+[2. Application Layer](##-Chapter-2-Application-Layer)  
+3. Transport Layer  
+4. The Network Layer: Data Plane  
+5. The Network Layer: Control Plane  
+6. The Link Layer & LAN  
+7. Wireless & Mobile Network  
+8. Security in Computer Network  
 
 --- 
 
 ## Chapter 1 - Computer Networks & Internet 
 
-Overview: 
-1.1 Internet  
-1.2 Network Edge  
-1.3 Network Core  
-1.4 Delay, Loss, & Throughput  
-1.5 Protocol Layer & Service Model  
-1.6 Security  
+**Overview:**  
+[1.1 Internet](###1.1-Internet)    
+[1.2 Network Edge](###1.2-Network-Edge)  
+[1.3 Network Core](###1.3-Network-Core)   
+[1.4 Delay, Loss, & Throughput](###1.4-Performance)  
+[1.5 Protocol Layer & Service Model](###1.5-Protocol-Layers)  
+[1.6 Security](###1.6-Network-Attacks)  
+[1.7 History](###1.7-History) 
+
+<details> 
+<summary>Read more on Chapter 1</summary>  
 
 ### 1.1 Internet 
 * Internet is a computer network that interconnects any computing devices (devices can be hosts or end systems).  
@@ -166,4 +170,172 @@ There are five protocol layers in the internet.
 * 1990: IPS, Web, HTTP, messaging app, 50 mil hosts 
 * 2005 - present: SDN, 5G, Wifi, Socmed, Smartphones
 
+</details>
+
+---  
+---  
+
+## Chapter 2 - Application Layer  
+**Overview:**  
+[2.1 Principles of Network Application](###2.1-Principles-of-Network-Application)   
+[2.2 Web & HTTP](###2.2-Web-&-HTTP)    
+[2.3 Email](###2.3-Email-SMTP-(Simple-Mail-Transfer-Protocol))  
+[2.4 DNS](###2.4-DNS-(Domain-Name-System))  
+[2.5 P2P File Distribution](###2.5-P2P-File-Distribution)  
+[2.6 Streaming & Content Distributions](###2.6-Streaming-&-Content-Distributions)  
+[2.7 Socket Programming](###2.7-Socket-Programming)  
+
+<details> 
+<summary>Read more on Chapter 2</summary>  
+
+### 2.1 Principles of Network Application 
+
+* Client-server architecture: there must be a dedicated server, client not interact with each other directly, fixed server IP. Ex: Web, email, FTP, telnet (remote access protocol). 
+* Peer-to-peer architecture: host connects each other, no dedicated server, cheap because no server infrastructure but high ristk on security, performance, and reliability. 
+* Socket: interface between application layer and network layer. It is an API for the network application. Messages from process (app layer) must pass through a network using software interface (socket). It is like a door which process send and receive messages. Usually, a socket needs a process address, which is contains 2 information: 
+  * Host IP --> host identity (address) (32 bits)
+  * Host Port number --> specific receiving process. Webserver: 80, mailserver:25.  
+Both IP and Port are also protocols.   
+[show figure socket] 
+
+#### Transport Services
+* Services (I would say that these are mechanisms): 
+  * Reliable data transfer: make sure data is sent to destination correctly. Prevent data loss. Ex: multimedia. 
+  * Throughput: bit rate sent per time. 
+  * Timing: low delay or latency. 
+  * Security: provides encryption, data integrity to prevent tampering, and end point authentication to prove user identity. 
+
+#### Transport Protocol 
+1. User Datagram Protocol (UDP):
+    * UDP is actually run on the network layer. Does not establish connection before sending data, send data directly without waiting for confirmation (faster because no sending queuing). 
+    * Does not guarantee delivery, order, thus it may receive unordered data or loss. Ex: usage on online games, DNS, where speed is more important than reliability. 
+    * No overhead: no extra data or process to transmit the actual data. 
+
+2. Transmission Control Protocol (TCP):  
+   * Establishes connection before transmission (3 way handshake: init-request-file received). 
+   * Guarantees correct, ordered delivery without loss using acknowledgment (ACK) and retransmission (slower). Ex: uses on web browsing (HTTP), FTP, email (SMTP). 
+   * ACK (acknowledgment): confirmation of data reception. How? --> TCP sender transmit data segments, set timer and wait for and ACK from receiver. Uses cummulative ACK, so even if asegment is loss, it can wait and retransmit. 
+   * Retransmission: resend the segment if the sender did not receive ACK of that segment before timer expires (RTO), loss or damaged assumptions. Retransmission interval (RTO) increased exponentially with each subsequent retransmission attempt to prevent network congestion.
+   * Both TCP and UDP can't gurarantee throughput and timing.    
+   [show tabel UDP vs TCP]
+
+3. Transport Layer Security (TLS): 
+   * Cryptographic protocol that provides secure communication. Goal: encrypt data, authenticate, integrity (untampering). Established over TCP. 
+4. QUIC: 
+   * Built upon UDP. Capble of ACK from discontinued packets, efficient for loss recovery. 
+   * Flexible method & algorithm to implement cryptography. 
+   [show figure TLS & QUIC]
+
+### Application Layer Protocol:  
+### 2.2 Web & HTTP 
+* HTTP (HyperText Transfer Protocol): application protocol (for WWW), relies on client & server programs to communicate by HTTP messages. 
+* Web pages: composed of objects with unique URL (uniform resource locator) include the base HTML and images, CSS, etc. 
+* URL: address of the web that contains the protocol, hostname or domain, and path. 
+* HTTP uses TCP. Clients initiate TCP connections with a server to exchange HTTP message. Once connected, browser and server process access TCP using client's socket interface. 
+* HTTP is stateless protocol, meaning that server do not store client's previous request (each request each link/ connection). 
+* Persistent vs Non-persistent Connection
+  * Non-persistent: create new connection for each request. Ex: HTTP
+  * Persistent: multiple objects sent over the same connection, efficient HTTP1.  
+  * RTT (round trip time): tune for a packet to round travel. Determined by delays {prop, queue, trans, proc}. 
+  * `Total response time: 2RTT+d`. This is the minimum total response time for each request of non-persistent connection. 
+* HTTP Message format:  
+  * Request message: 
+    * Method: GET, POST, PUT, DELETE
+    * HTTP Version
+    * Header: Host, connection, user, language 
+  * Response message: 
+    * Protocol version 
+    * Status code 
+    * Header & body (payload): connection, date, server, content length, last modified, content type. 
+* Cookies: a small text file stored on the user's browser that web uses to remember information (user ID and tracking). Components: Header, File, Backend DB. Usage: authorization, recommendation, session. BUt it also creates concern regarding privacy & identity sales (GDPR - general data protection regulation to handle this issue). 
+* Web cache (proxy server): Store copies of objects to reduce the fetching from original server. CDN uses distributed cahcing to localize delivery. 
+
+### 2.3 Email - SMTP (Simple Mail Transfer Protocol)
+* SMTP: Principal protocol to send email between server. 
+* Basics: 
+  1. Sender server initializes the connection using port 25 via TCP. 
+  2. Sedner & recipient info read 
+  3. Message transmitted  
+  4. close (persistent connection)
+* Message structure: 
+  1. From 
+  2. To 
+  3. Subject 
+  4. Body   
+
+[show figure message structure]  
+
+* MAP (Mail Access Protocol)  
+  * Sender --(SMTP, HTTP)--> sender server --(SMTP)--> recipient server --(HTTP, IMAP)--> recipient. 
+  * The sender side is push protocol, while the server side is pull protocol. 
+
+### 2.4 DNS (Domain Name System)
+* DNS is a query response protocol. It translates humaly hostname to IP address (32 bits). Distributed DB, app layer ptotocol, use UDP port 53. 
+* DNS Service: 
+  * Hostname aliasing: host with alias name from canonical. Ex: xx.xx.host.com --> x.host.com (alias). 
+  * Mail server aliasing: resolves alias hostname to canonical forms and retrieves IP address. Ex: x@x.com --> x@xx.xx.com. 
+* DNS distributed hierarchical database:   
+[show figure DNS hierarchy]  
+* Caching: DNS utilizes query (dynamic address) for caching (better performance).
+  [show figure caching]
+* DNS server stores record of record (RR). RR = {A, NS, CNAME, MX}. 
+  * Type A (alias): maps hostname to IP address. Ex: hostname: geek.com, IP: 192.168.0.7. 
+  * Type NS (name server): maps a domain to the hostname of authorative DNS server. Point to the name server where a domain record is registered. Ex: A= geek.com at NS: xx.akamai.com. 
+  * Type CNAME (alias hostname): provides canonical name for alias hostname. Ex: hostname = geek.com, alias = serv.geek.com. 
+  * Type MX (mail exchanger): maps to canonical name of mail server with alias hostname. Ex: nx=mailgeek.com, domain=geek.com, cname=mail.geek.com, A=m11.geek.com. Multiple MX are allowed. 
+* DNS client does query --> 
+  * --> MX: canonical name of a mail server.  
+  * --> CNAME: canonical name of other server.  
+  * DNS Message Format: 
+    * Header: query or reply flag, recursion flag, authorative flag.  
+    * Body: question, RR, authority, additional sections.   
+[show figure dns replies format]  
+
+* Insert record to DNS DB: 
+  1. Provide registrar with DNS server name and IP address. 
+  2. Enter type NS and type A records for authoritative DNS server into TLD server. Ex: type NS --> utopia.com, dns1.utopia.com. type A --> dns1.utopia.com, 212.212.212.1. 
+
+### 2.5 P2P File Distribution 
+* P2P applications: peers request and provide services to the other peers. Dynamic connection, it scales with the peers. Ex: Bit Torrent, VoIP (Skype). 
+* Time to share message in client-server vs P2P (assume all users download concurrently): 
+  * Client server:  
+    * Server transmission for N copies of file/ users: t<sub>cs</sub> = N x <sup>F</sup>&frasl;<sub>U</sub>, where F = length, and U = upload speed. 
+    * Client download from network: t<sub>cs</sub> >= max(N x <sup>F</sup>&frasl;<sub>U</sub>, <sup>F</sup>&frasl;<sub>d<sub>min</sub></sub>). <-- Max, because the congestion might happens so it be the minimum time, and d<sub>min</sub> because it is the minimum client download rate.  
+    [show figure client server]  
+  * P2P: 
+    * Server transmission (for 1 copy at least): t<sub>p2p</sub> = <sup>F</sup>&frasl;<sub>U</sub>, N = 1. 
+    * Client download: <sup>F</sup>&frasl;<sub>d<sub>min</sub></sub>.
+    * Client as aggregates must download N x F bits from the network, max upload rate: U + ΣU<sub>i</sub>. Therefore, t<sub>p2p</sub> > max(<sup>F</sup>&frasl;<sub>U</sub>, <sup>F</sup>&frasl;<sub>d<sub>min</sub></sub>, <sup>N.F</sup>&frasl;U + ΣU<sub>i</sub>).  
+    [show figure tcs vs tp2p]
+* Torrent: set of peer. Actually still need a server as a tracker. How does it work? 
+  1. New peer join: it can download with default speed. It will download another chunk needed in network (rare will be high priority). It connects to the neighbor by the tracker. 
+  2. Requesting chuncks: a peer asks chunk from peers especially the rare chunk.
+  3. Sending chuncks: that peer, send chunks to those peers at highest rate. If the neighbors not receiving the chuncks, re-evaluate peer connection.  
+
+### 2.6 Streaming & Content Distributions 
+* Challenges: 
+  * Bandwidth varies, congestion may occurs. 
+  * Packet loss or delay, means low quality of network. 
+  * Jitter, client side buffer needed. 
+  * Client interactivity --> change knob timestamp. 
+* DASH (Dynamic, Adaptive, Streaming over HTTP): 
+  * Server: Video --> chunks --> encoded at different rates --> files --> replicated in CDN --> provide URLs for chunks (manifest). 
+  * Client: Estimates server-client bandwidth --> manifest: request chunk (choose max rate, from server). If congestion occurs, change server. 
+* Solutions: 
+  1. Mega server: single source failure risk, congestion, long distance clients. This solution is just does not scale. 
+  2. Distributed CDN: store multiple copies at distributed sites. This solution is better. 
+
+### 2.7 Socket Programming
+Socket only provides 2 protocols: TCP and UDP. 
+1. UDP:  
+   * Create socket on server & client, specify UDP with `SOCK_DGRAM`. 
+   * Create message process on the client. Must know the server port and address. 
+2. TCP: 
+   * Similar to UDP, but, each client server need to create new socket. Need source port number to identify clients. 
+
+</details> 
+
+---  
+---  
+  
 (to be continued...)
