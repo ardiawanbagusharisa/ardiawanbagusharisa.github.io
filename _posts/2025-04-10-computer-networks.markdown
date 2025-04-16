@@ -8,33 +8,30 @@ tags: Networking
 
 This is my personal note that contains the summary of Computer Networks course, from the book "Computer Networking: A Top-Down Approach" by James F. Kurose & Keith W. Ross. 
 
-## Chapters Overview 
-[1. Computer Networks & Internet](##Chapter-1-Computer-Networks-&-Internet)  
-[2. Application Layer](##-Chapter-2-Application-Layer)  
-3. Transport Layer  
-4. The Network Layer: Data Plane  
-5. The Network Layer: Control Plane  
-6. The Link Layer & LAN  
-7. Wireless & Mobile Network  
-8. Security in Computer Network  
+## Chapters Overview {#overview}
+[1. Computer Networks and Internet](#chapter1)  
+[2. Application Layer](#chapter2)  
+[3. Transport Layer](#chapter3)  
+[4. The Network Layer: Data Plane]  
+[5. The Network Layer: Control Plane]  
+[6. The Link Layer & LAN]  
+[7. Wireless & Mobile Network]  
+[8. Security in Computer Network]  
 
 --- 
 
-## Chapter 1 - Computer Networks & Internet 
-
+## Chapter 1 - Computer Networks and Internet {#chapter1}
 **Overview:**  
-[1.1 Internet](###1.1-Internet)    
-[1.2 Network Edge](###1.2-Network-Edge)  
-[1.3 Network Core](###1.3-Network-Core)   
-[1.4 Delay, Loss, & Throughput](###1.4-Performance)  
-[1.5 Protocol Layer & Service Model](###1.5-Protocol-Layers)  
-[1.6 Security](###1.6-Network-Attacks)  
-[1.7 History](###1.7-History) 
+[1.1 Internet](#chapter11)    
+[1.2 Network Edge](#chapter12)  
+[1.3 Network Core](#chapter13)   
+[1.4 Performance](#chapter14)  
+[1.5 Protocol Layers](#chapter15)  
+[1.6 Network Attacks](#chapter16)  
+[1.7 History](#chapter17)  
+[< Chapter Overviews](#overview)
 
-<details> 
-<summary>Read more on Chapter 1</summary>  
-
-### 1.1 Internet 
+### 1.1 Internet {#chapter11}
 * Internet is a computer network that interconnects any computing devices (devices can be hosts or end systems).  
 [show figure internet]  
 * Protocols are the rules to run the internet, rules to send the message (data) and what actions should be taken regarding to that message. It also defines the message's format, the order, the action should be taken on data transmission, and how to give the receipt upon data arrival.
@@ -57,11 +54,11 @@ Some definitions:
      * Radio: path loss, fade, interference 
      * Satellite: highspeed without DSL
 
-### 1.2 Network Edge 
+### 1.2 Network Edge {#chapter12}
 * Network core is the lowest, edge of the global internet in concept. 
 * There are three types of network edge: 1. Residential Access Network, 2. Institutional Access Network, and 3. Mobile Network. 
 
-### 1.3 Network Core 
+### 1.3 Network Core {#chapter13}
 * In order to send and receive the data, it needs to be send forward (or forwarding), or we also call it switching. 
 * The router will look at the table from the packet, then transmit the packet to the destined router.  
 [show figure packet table]  
@@ -107,7 +104,7 @@ Network with 1Gbps link, each user can send 100mbps when active, with active rat
 Q: how many users can use the network with circuit and packet switching?  
 A: Circuit switch --> 10 users (1Gbps/100mbps). But for Packet switch --> 35 users. 
 
-### 1.4 Performance 
+### 1.4 Performance {#chapter14}
 #### Delay 
 * Four delay types: nodal processing, queue, transmission, and propagation delays.  
 d<sub>total</sub>=d<sub>proc</sub>+d<sub>queue</sub>+d<sub>trans</sub>+d<sub>prop</sub> ms.   
@@ -136,7 +133,7 @@ A: d<sub>total</sub> = d<sub>trans</sub> + d<sub>prop</sub>
 * There is an instant throughput, and averaged throughputs. It is limmited by min(Rs (trans server), Rc (server client)) because of the bottleneck (just like water pipe).  
 * For example, packets sent in 10 connections @R bps. Each connection throughput = min(Rc, Rs, R/10). Usually, R/N is always bigger. 
 
-### 1.5 Protocol Layers 
+### 1.5 Protocol Layers {#chapter15}
 * Protocol layers are organized layers of protocols providing services from the layer below, by utilizing modularity. Depends, it can be implemented on software, hardware, or both. It is also called protocol stacks. 
 * Data is encapsulated through each layer, usually contains Header and Payload (main body). 
 There are five protocol layers in the internet.  
@@ -148,7 +145,7 @@ There are five protocol layers in the internet.
 [show figure internet layers]
 [show figure source to destination process] 
 
-### 1.6 Network Attacks 
+### 1.6 Network Attacks {#chapter16}
 * Attacks that focus on the network: Sniffing, DoS, IP Spoofing. 
 * More complete types: 
   * Malware: Virus, worms, ransom, trojan, spyware
@@ -163,32 +160,30 @@ There are five protocol layers in the internet.
   5. Firewall: (Hardware) programmed to detect and mitigate attack. Sit in the network edge and core. Can filter the senders, receivers, and apps. 
 * Tools in computer network: traceroute, wireshark 
 
-### 1.7 History 
+### 1.7 History {#chapter17}
 * 1961: Early packet switching   
 * 1972: Inter-networking 
 * 1980: New protocol: TCP/IP, SMTP, DNS, IP, 200 hosts
 * 1990: IPS, Web, HTTP, messaging app, 50 mil hosts 
 * 2005 - present: SDN, 5G, Wifi, Socmed, Smartphones
 
-</details>
+[< Chapter 1](#chapter1) 
 
 ---  
 ---  
 
-## Chapter 2 - Application Layer  
+## Chapter 2 - Application Layer {#chapter2} 
 **Overview:**  
-[2.1 Principles of Network Application](###2.1-Principles-of-Network-Application)   
-[2.2 Web & HTTP](###2.2-Web-&-HTTP)    
-[2.3 Email](###2.3-Email-SMTP-(Simple-Mail-Transfer-Protocol))  
-[2.4 DNS](###2.4-DNS-(Domain-Name-System))  
-[2.5 P2P File Distribution](###2.5-P2P-File-Distribution)  
-[2.6 Streaming & Content Distributions](###2.6-Streaming-&-Content-Distributions)  
-[2.7 Socket Programming](###2.7-Socket-Programming)  
+[2.1 Principles of Network Application](#chapter21)   
+[2.2 Web and HTTP](#chapter22)    
+[2.3 Email](#chapter23)  
+[2.4 DNS](#chapter24)  
+[2.5 P2P File Distribution](#chapter25)  
+[2.6 Streaming and Content Distributions](#chapter26)  
+[2.7 Socket Programming](#chapter27)  
+[< Chapter Overviews](#overview)
 
-<details> 
-<summary>Read more on Chapter 2</summary>  
-
-### 2.1 Principles of Network Application 
+### 2.1 Principles of Network Application {#chapter21}
 
 * Client-server architecture: there must be a dedicated server, client not interact with each other directly, fixed server IP. Ex: Web, email, FTP, telnet (remote access protocol). 
 * Peer-to-peer architecture: host connects each other, no dedicated server, cheap because no server infrastructure but high ristk on security, performance, and reliability. 
@@ -226,8 +221,8 @@ Both IP and Port are also protocols.
    * Flexible method & algorithm to implement cryptography. 
    [show figure TLS & QUIC]
 
-### Application Layer Protocol:  
-### 2.2 Web & HTTP 
+### Application Layer Protocol:   
+### 2.2 Web and HTTP {#chapter22}
 * HTTP (HyperText Transfer Protocol): application protocol (for WWW), relies on client & server programs to communicate by HTTP messages. 
 * Web pages: composed of objects with unique URL (uniform resource locator) include the base HTML and images, CSS, etc. 
 * URL: address of the web that contains the protocol, hostname or domain, and path. 
@@ -250,7 +245,7 @@ Both IP and Port are also protocols.
 * Cookies: a small text file stored on the user's browser that web uses to remember information (user ID and tracking). Components: Header, File, Backend DB. Usage: authorization, recommendation, session. BUt it also creates concern regarding privacy & identity sales (GDPR - general data protection regulation to handle this issue). 
 * Web cache (proxy server): Store copies of objects to reduce the fetching from original server. CDN uses distributed cahcing to localize delivery. 
 
-### 2.3 Email - SMTP (Simple Mail Transfer Protocol)
+### 2.3 Email - SMTP (Simple Mail Transfer Protocol) {#chapter23}
 * SMTP: Principal protocol to send email between server. 
 * Basics: 
   1. Sender server initializes the connection using port 25 via TCP. 
@@ -269,7 +264,7 @@ Both IP and Port are also protocols.
   * Sender --(SMTP, HTTP)--> sender server --(SMTP)--> recipient server --(HTTP, IMAP)--> recipient. 
   * The sender side is push protocol, while the server side is pull protocol. 
 
-### 2.4 DNS (Domain Name System)
+### 2.4 DNS (Domain Name System) {#chapter24}
 * DNS is a query response protocol. It translates humaly hostname to IP address (32 bits). Distributed DB, app layer ptotocol, use UDP port 53. 
 * DNS Service: 
   * Hostname aliasing: host with alias name from canonical. Ex: xx.xx.host.com --> x.host.com (alias). 
@@ -295,7 +290,7 @@ Both IP and Port are also protocols.
   1. Provide registrar with DNS server name and IP address. 
   2. Enter type NS and type A records for authoritative DNS server into TLD server. Ex: type NS --> utopia.com, dns1.utopia.com. type A --> dns1.utopia.com, 212.212.212.1. 
 
-### 2.5 P2P File Distribution 
+### 2.5 P2P File Distribution {#chapter25}
 * P2P applications: peers request and provide services to the other peers. Dynamic connection, it scales with the peers. Ex: Bit Torrent, VoIP (Skype). 
 * Time to share message in client-server vs P2P (assume all users download concurrently): 
   * Client server:  
@@ -312,7 +307,7 @@ Both IP and Port are also protocols.
   2. Requesting chuncks: a peer asks chunk from peers especially the rare chunk.
   3. Sending chuncks: that peer, send chunks to those peers at highest rate. If the neighbors not receiving the chuncks, re-evaluate peer connection.  
 
-### 2.6 Streaming & Content Distributions 
+### 2.6 Streaming and Content Distributions {#chapter26}
 * Challenges: 
   * Bandwidth varies, congestion may occurs. 
   * Packet loss or delay, means low quality of network. 
@@ -325,17 +320,181 @@ Both IP and Port are also protocols.
   1. Mega server: single source failure risk, congestion, long distance clients. This solution is just does not scale. 
   2. Distributed CDN: store multiple copies at distributed sites. This solution is better. 
 
-### 2.7 Socket Programming
+### 2.7 Socket Programming {#chapter27}
 Socket only provides 2 protocols: TCP and UDP. 
 1. UDP:  
    * Create socket on server & client, specify UDP with `SOCK_DGRAM`. 
    * Create message process on the client. Must know the server port and address. 
 2. TCP: 
-   * Similar to UDP, but, each client server need to create new socket. Need source port number to identify clients. 
+   * Similar to UDP, but, each client server need to create new socket. Need source port number to identify clients.  
 
-</details> 
+[< Chapter 2](#chapter2)  
 
 ---  
 ---  
-  
+
+## Chapter 3 - Transport Layer {#chapter3}
+**Overview:**  
+[3.1 Transport Layer Services](#chapter31)  
+[3.2 Multiplexing & Demultiplexing](#chapter32)  
+[3.3 Connectionless Transport: UDP](#chapter33)  
+[3.4 Principles of Reliable Data Transfer](#chapter34)   
+[3.5 Connection-oriented Transport: TCP](#chapter35)  
+[3.6 Principles of Congestion Control](#chapter36)   
+[3.7 TCP Congestion Control](#chapter37)  
+[< Chapter Overviews](#overview)  
+
+### 3.1 Transport Layer Services {#chapter31}
+* Transport layer provides logical communication (sender-receiver is connected) between process. Logical communication between hosts (that's network layer). 
+  * Sender: break up messages into segments, pass to the network layer. 
+  * Receiver: reassembles segments itno message, pass to application layer. 
+* Two transport protocol: TCP & UDP. Transport layer not guarantees delay & bandwidth quality. 
+
+### 3.2 Multiplexing (Mux) and Demultiplexing (Demux) {#chapter32}
+* Mux and demux are used as host-to-host delivery extension TO process-to-process delivery for network application. 
+* Multiplexing: gather data from sockets, encapsulate with header to create segments, pass it to network layer (sending). 
+* Demultiplexing: splitting data for sockets (receiving). 
+  * Transport layer deliver data (segment) to intermediary socket, not directly to the process. Direct the segment to the corresponding socket (to the right process). 
+  * Steps:  
+    1. host receives datagram {source IP, destination IP}.
+    2. datagram has 1 segment.
+    3. segment has {source port and destination port}.
+    * Host uses IP address & port to direct segment to the correct socket. 
+  * UDP - Connectionless Demultiplexing 
+    * Sender must specify: {destination IP, destination port}. 
+    * Receiver check destination port in segment then direct it to that port. 
+    * Possible uses of some port number = same with sockets. 
+  * TCP - Connection-oriented Demultiplexing
+    * Must specify: {source IP and port, destination IP and port}. 
+    * Similar process to UDP but each sochket on server associated with different client. No sharing use of socket. One process may have many sockets. 
+
+### 3.3 Connectionless Transport: UDP {#chapter33}
+* It's simple, low effort, no handshake, small header, no congestion control, fit for bust data. Ex: uses on streaming multimedia, DNS, HTTP3. 
+* HTTP3: add reliability and congestion control at application layer.
+[show figure of segment]
+
+* Checksum: used to detect error of the transmitted segment (ex: flipped bits). Basically, it is addition operation in binary.  
+[show figure checksum]
+  * Sender: treates content of segment (header fields, IP) as 16 bit size segment.
+  * Receiver: compute checksum of received segment then check. Apply wraparound method (add 1 last bit to the first bit of segment). However, flipped bit can actually still happen. 
+
+### 3.4 Principles of Reliable Data Transfer {#chapter34}
+[show figure RDT]  
+
+* One side of the host can not understand the status of other side. That's why we need to use the concept of FSM (finite state machine).  
+* RDT 1 - Perfect Relibability 
+  * FSM on sender and receiver.  
+  [show figure rdt 1]  
+* RDT 2 - Bit Error detection 
+  * Use checksum to detect error. Use acknowledgment (ACK) and negative ACK (NAK) receipts.  
+  [show figure rdt 2]
+* RDT 2.1 Corrupted & Duplicated correction
+  * Add sequence number to correct order. 
+  * Each action of send and receive has state. 
+  * Sender checks if packet is corrupted, receiver checks if packet is duplicated. But, receiver cannot know if ACK/NAK received OK at the sender. 
+  [show figure rdt 2.1]
+
+### 3.5 Connection-oriented Transport: TCP {#chapter35}
+* Point-to-point transportation, 1 sender and 1 receiver. Reliable (in order). Congestion & flow control.  
+[show figure tcp message format]  
+[show figure tcp action]
+* RTT (Round Trip Time) & Time Out (RTO): 
+  * ERTT = (1 - α) x ERTT + α x sRTT. 
+    * Using exponential weighted moving average formula. 
+    * typical α = 0.125. sRTT: sample RTT.  
+    [show figure ERTT]
+  * Safety margin on time out interval: 
+    * Timeout Interval (RTO): ERTT + 4 x DevRTT.
+    * DevRTT = (1 - β) x DevRTT + β x `|`sRTT - ERTT`|`. 
+    * Typical β = 0.25. 
+* Sending and receiving scenarions:  
+  * Sender:
+    * Event (when a data received): then create segment & segment number, start timer to transmit to the next destination.
+    * Event time out: retransmit, restart timer. 
+    * Event ACK: if ACK updated, start timer for the next unACK.
+  * Receiver:
+    * Cases:  
+      * Arrival of all segments --> delay ACK for time interval (0.5s), send ACK. 
+      * Arrival of one ack pending --> send single cummulative ACK. 
+      * Out of oders --> duplicate ACK. 
+      * Loss --> re-send. 
+  [show figure sending and receiving]: 
+* Fast Retransmit: 
+  * Just duplicate the lost segment ACK, resend unACK segment. 
+  * Do retransmit after lost segment, because we know the number of segments delivered. No need to wait for the time out to expires. 
+
+### 3.6 Principles of Congestion Control {#chapter36}
+* Causes and costs
+  * λ<sub>in</sub> ~ <sup>R</sup>/<sub>2</sub>, maximum transmission rate.
+    * Cost: Delay. 
+    * [show figure]
+  * λ'<sub>in</sub> >= λ<sub>in</sub>, loss, duplicated. 
+    * Cost: more transmission, unneeded transmission (decrease the throughput). 
+    * [show figure]
+  * λ<sub>in</sub> & λ'<sub>in</sub> => ∞ (increase to max), λ<sub>out</sub> = 0, zero throughput. 
+    * Cost: wasted upload transmission and bufffering for specific connection (link).
+    * [show figure]
+* Approaches: 
+    1. Detect loss from ACK/ RTT (end-to-end congestion control). 
+    2. Router (network layer) provides feedback, even before congestion (also called Network Assisted Congestion Control). 
+
+### 3.7 TCP Congestion Control {#chapter37}
+#### Window-based (transmission rate-based)
+1. AIMD (Additive Increase, Multiplicative Decrease)  
+[Show figure AIMD]  
+   * This is the base of TCP congestion control.  
+   * Increase send rate by 1 segment at max, every RTT until loss is detected.
+   * Cut send rate in half each loss event.  
+   * We need more stable and optimized congested flow, that's why we have TCP Reno and Tahoe.
+     * TCP Reno: cut in half, loss detected by 3 duplicated ACK. 
+     * TCP Tahoe: cut to 1 max segment size when loss by time out. 
+   * CWND (Congestion Window): buffer to handle queue of segments. It has dynamic size, according to the congestion. 
+     * CWND >= Last byte sent - last byte ACKed. 
+   * Slow start: TCP tries 1 segment at the initial, then ramp up exponentially. 
+     * Use variable `sstresh` to detect the swtich from exponential to linear.  
+    [show figure slow start]
+    [show figure fsm]  
+2. TCP CUBIC
+   * Send closely to window max capacity.
+   * Larger increment when away from max, but smaller when nearer max. 
+   * Now is the default for Linux and Web.  
+   [show figure tcp cubic]
+
+* Both TCP AIMD and CUBIC applied as end-to-end system. Focuses on sender/ receiver rate.
+* Measured throughput = <sup>bytes sent in last RTT interval</sup> / <sub>RTT measured</sub>. 
+* Delay approach: 
+  * if (throughput near ideal) then increase CWND  
+  else if (far from ideal) then decrease CWND
+  * ideal throughput = CWND / RTT<sub> min</sub>.
+
+#### Delay-based Congestion Control
+* Control without forcing loss. 
+* Maximizing throughput, keeping delay on the router low. 
+3. ECN (Explicit Congestion Notification)
+  * Network-assisted control. Need hosts and router. 
+  * ECN is a way for routers to signal congestion to endpoints without dropping packets, which is especially useful for maintaining low delays and avoiding unnecessary retransmissions.
+  * Steps: 
+    1. Router marks a packet with CE instead of dropping it. Use two bits in IP datagram header (network layer). 
+    2. Receiver sees CE --> sets ECE = 1 in its TCP ACK.
+    3. Sender receives ACK with ECE = 1 --> slows down (e.g., reduces TCP congestion window).  
+  * Detailed steps: 
+    * When a router detects congestion (typically based on queue length), it marks the packet instead of dropping it (marking it with CE – Congestion Experienced).
+    * The receiver sees the marked packet and sets the ECE flag (ECE = 1) in the TCP ACK it sends back to the sender. ECE = 1 → “Explicit Congestion Experienced”. ECN uses 2 bits in the IP header to indicate congestion capability and whether congestion is experienced. 
+    * The sender then knows that there is congestion in the network and can adjust its sending rate accordingly.
+
+* Summary of congestion control method: 
+* Congestion control: 
+  1. Reno: losses in burst, because FIFO. 
+  2. SACK: resend missing data. 
+  3. ECN: router in the center of network need to use IP Header for congestion notification. 
+  * There is no transport layer service in the middle of the network.  
+* Congestion avoidance: 
+  1. Vegas: host-centric, control sending rate, fast retransmit, fast recovery. 
+  2. RED: router-centric, use predicting loss package to prevent. 
+[show all figure of congestion control types]
+
+[< Chapter 3](#chapter3)  
+
+---
+
 (to be continued...)
