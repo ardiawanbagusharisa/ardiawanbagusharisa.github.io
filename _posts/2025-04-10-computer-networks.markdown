@@ -417,8 +417,8 @@ Socket only provides 2 protocols: TCP and UDP.
       * Arrival of all segments --> delay ACK for time interval (0.5s), send ACK. 
       * Arrival of one ack pending --> send single cummulative ACK. 
       * Out of oders --> duplicate ACK. 
-      * Loss --> re-send. 
-  [show figure sending and receiving]: 
+      * Loss --> re-send.  
+[show figure sending and receiving]:  
 * Fast Retransmit: 
   * Just duplicate the lost segment ACK, resend unACK segment. 
   * Do retransmit after lost segment, because we know the number of segments delivered. No need to wait for the time out to expires. 
