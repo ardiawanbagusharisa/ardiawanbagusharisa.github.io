@@ -500,7 +500,7 @@ Socket only provides 2 protocols: TCP and UDP.
 ---
 
 ## Mid-term Exam {#midterm}
-
+### Questions
 Here are the questions in my mid-term exam: 
 1. (10%) Supposed a web server has 10 ongoing TCP connections. Consider only the 10 connections. How many server-side sockets are used? How many server-side port numbers are used? 
 
@@ -513,7 +513,7 @@ Here are the questions in my mid-term exam:
 
 3. Consider the following plot of TCP window size as a function of time. Assuming TCP Reno is the protocol experiencing the behavior shown in Fig. 1.  
   Answer the following questions.  
-  (a) (3%) What is the value of ssthresh at the 18<sup>th</sup> transmission round?  
+  (a) (3%) What is the value of ssthresh at the 18<sup>th</sup> transmission round?   
   (b) (3%) What is the value of ssthresh at the 24<sup>th</sup> transmission round?   
   (c) (3%) Identify the intervals of time when TCP slow start is operating.  
   (d) (6%) Assuming a packet loss is detected after the 26<sup>th</sup> round by the receipt of a triple duplicate ACK, what will be the values of the congestion window size and of ssthresh?  
@@ -522,14 +522,48 @@ Here are the questions in my mid-term exam:
   (g) (3%) Identify the intervals of time when TCP congestion avoidance is operating.  
   (h) (3%) What is the initial value of the ssthresh at the first transmission round?  
   (i) (3%) During what transmission round is the 70<sup>th</sup> segment sent?  
-  <center><img src="/images/cn-mid-3.jpg" width="300" title="Question No. 3." alt="Question No. 3."/></center>  
 
 4. Compare Go-back-N, Select-Repeat, and TCP. Assume that timeout values for all three protocols are sufficiently long such that 5 consecutive data segments and their corresponding ACKS can be received by the receiving host and the sending host. Suppose the sending host has 6 data segments to send to the receiving host. Assume that the second segment in the first window is lost and all other transmissions succeed without errors. In the end, all 6 data segments must have been correctly received by the receiving host. Assume that the window size for all three protocols is 5. Please finish the following figure for the transmission operations based on the three protocols. You can assume the propagation time is much longer than the transmission time. If a time-out occurs, please mark clearly the assumed time-out interval.   
   (a) (10%) Please finish the above figure based on Go-back-N.   
   (b) (10%) Please finish the above figure based on Selective-Repeat.  
   (c) (10%) Please finish the above figure based on TCP. (Note you can assume the window size is 5 at the beginning.)   
   (d) (5%) If the time-out values for all three protocols are much longer than 5 RTT, then which protocol successfully delivers all six data segments in the shortest time interval?   
+
+Figure for question number 3: 
+  <center><img src="/images/cn-mid-3.jpg" width="300" title="Question No. 3." alt="Question No. 3."/></center>  
+Figure for question number 4: 
   <center><img src="/images/cn-mid-4.jpg" width="400" title="Question No. 4." alt="Question No. 4."/></center>  
+
+### Answers
+1. Socket = 10, Port = 1. 
+2. If length = M,  
+  (a) M/S prop delay  
+  (b) L/R transmission rate  
+  (c) L/R + M/S   
+  (d) N x L/R + M/S  
+3. Read more about TCP Reno. Sstresh = CWND/2  
+  (a) 21  
+  (b) 26/2 = 13  
+  (c) 1-6, 23-26  
+  (d) sstresh = 8/2 = 4. If use fast retransmit, CWND = 4, then 4 + 3 (handshake) = 7.   
+  (e) Tripple ACK  
+  (f) Timeout   
+  (g) 6-16, 17-22  
+  (h) First transmission = 1-6 rounds, in that last round, sstresh = 32.   
+  (i) 1+2+4+6+16+32+(33), so on the 7th round.   
+4. .
+  (a) Receiver does not have receiving buffer. Cannot send packet 3,4,5,6 yet. So wait until TO.  
+  (b) Window is full (5) so it still need to wait until TO. Packet 3-6 will be buffered. After TO, packet 2 will be sent after 3-6 packets.  
+  (c) Can do fast retransmit, no wait for TO.  
+  (d) TCP  
+
+Figure for answer 4 (a): 
+  <center><img src="/images/cn-mid-4a.jpg" width="400" title="No. 4 (a)." alt="No. 4 (a)."/></center>  
+Figure for answer 4 (b): 
+  <center><img src="/images/cn-mid-4b.jpg" width="400" title="No. 4 (b)." alt="No. 4 (b)."/></center>  
+Figure for answer 4 (c): 
+  <center><img src="/images/cn-mid-4c.jpg" width="400" title="No. 4 (c)." alt="No. 4 (c)."/></center>  
+
 --- 
 
 (to be continued...)
