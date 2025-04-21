@@ -18,6 +18,8 @@ This is my personal note that contains the summary of Computer Networks course, 
 [7. Wireless & Mobile Network]  
 [8. Security in Computer Network]  
 
+[Mid-term Exam](#midterm)
+
 --- 
 
 ## Chapter 1 - Computer Networks and Internet {#chapter1}
@@ -496,5 +498,40 @@ Socket only provides 2 protocols: TCP and UDP.
 [< Chapter 3](#chapter3)  
 
 ---
+
+## Mid-term Exam {#midterm}
+
+Here are the questions in my mid-term exam: 
+1. (10%) Supposed a web server has 10 ongoing TCP connections. Consider only the 10 connections. How many server-side sockets are used? How many server-side port numbers are used? 
+
+2. Consider two hosts, A and B, connected by a single link of rate `R` bps. Suppose that the two hosts are separated by `m` meters, and suppose the propagation speed along the link is `s` meters/sec. In the following problem (a), (b), and (c), suppose that Host A is to send a packet of length `L` bits to Host B.  
+  (a) (5%) Express the propagation delay in terms of `m` and `s`.  
+  (b) (5%) Determine the transmission time of the packet in terms of `L` and `R`.  
+  (c) (5%) Ignoring processing and queuing delays, obtain an expression for the end-to-end delay.  
+
+In the following problem (d), assume the same network as above is used. Suppose `N` packets arrive simultaneously at Host A, where no packets are currently being transmitted or queued. Also, assume that a best-effort protocol is used to send the packets. Each packet is of length L and the link has transmission rate `R`.  
+    * d) (10%) Ignoring processing delay, what is the total time to finish the transmission of the `N` packets, i.e., the time from the first packet sent by Host A until the last packet received by Host B?  
+
+3. Consider the following plot of TCP window size as a function of time. Assuming TCP Reno is the protocol experiencing the behavior shown in Fig. 1.  
+[show figure 3]  
+Answer the following questions.  
+  (a) (3%) What is the value of ssthresh at the 18<sup>th</sup> transmission round?  
+  (b) (3%) What is the value of ssthresh at the 24<sup>th</sup> transmission round?   
+  (c) (3%) Identify the intervals of time when TCP slow start is operating.  
+  (d) (6%) Assuming a packet loss is detected after the 26<sup>th</sup> round by the receipt of a triple duplicate ACK, what will be the values of the congestion window size and of ssthresh?  
+  (e) (3%) After the 16<sup>th</sup> transmission round, is segment loss detected by a triple duplicate ACK or by a timeout?  
+  (f) (3%) After the 22<sup>nd</sup> transmission round, is segment loss detected by a triple duplicate ACK or by a timeout?  
+  (g) (3%) Identify the intervals of time when TCP congestion avoidance is operating.  
+  (h) (3%) What is the initial value of the ssthresh at the first transmission round?  
+  (i) (3%) During what transmission round is the 70<sup>th</sup> segment sent?  
+
+4. Compare Go-back-N, Select-Repeat, and TCP. Assume that timeout values for all three protocols are sufficiently long such that 5 consecutive data segments and their corresponding ACKS can be received by the receiving host and the sending host. Suppose the sending host has 6 data segments to send to the receiving host. Assume that the second segment in the first window is lost and all other transmissions succeed without errors. In the end, all 6 data segments must have been correctly received by the receiving host. Assume that the window size for all three protocols is 5. Please finish the following figure for the transmission operations based on the three protocols. You can assume the propagation time is much longer than the transmission time. If a time-out occurs, please mark clearly the assumed time-out interval.   
+[show figure 4 here]  
+   (a) (10%) Please finish the above figure based on Go-back-N.   
+   (b) (10%) Please finish the above figure based on Selective-Repeat.  
+   (c) (10%) Please finish the above figure based on TCP. (Note you can assume the window size is 5 at the beginning.)   
+   (d) (5%) If the time-out values for all three protocols are much longer than 5 RTT, then which protocol successfully delivers all six data segments in the shortest time interval?   
+
+--- 
 
 (to be continued...)
