@@ -512,7 +512,6 @@ Here are the questions in my mid-term exam:
   (d) (10%) Ignoring processing delay, what is the total time to finish the transmission of the `N` packets, i.e., the time from the first packet sent by Host A until the last packet received by Host B?  
 
 3. Consider the following plot of TCP window size as a function of time. Assuming TCP Reno is the protocol experiencing the behavior shown in Fig. 1.  
-  <center><img src="/images/cn-mid-3.jpg" width="300" title="Question No. 3." alt="Question No. 3."/></center>
   Answer the following questions.  
   (a) (3%) What is the value of ssthresh at the 18<sup>th</sup> transmission round?  
   (b) (3%) What is the value of ssthresh at the 24<sup>th</sup> transmission round?   
@@ -523,14 +522,14 @@ Here are the questions in my mid-term exam:
   (g) (3%) Identify the intervals of time when TCP congestion avoidance is operating.  
   (h) (3%) What is the initial value of the ssthresh at the first transmission round?  
   (i) (3%) During what transmission round is the 70<sup>th</sup> segment sent?  
+  <center><img src="/images/cn-mid-3.jpg" width="300" title="Question No. 3." alt="Question No. 3."/></center>  
 
 4. Compare Go-back-N, Select-Repeat, and TCP. Assume that timeout values for all three protocols are sufficiently long such that 5 consecutive data segments and their corresponding ACKS can be received by the receiving host and the sending host. Suppose the sending host has 6 data segments to send to the receiving host. Assume that the second segment in the first window is lost and all other transmissions succeed without errors. In the end, all 6 data segments must have been correctly received by the receiving host. Assume that the window size for all three protocols is 5. Please finish the following figure for the transmission operations based on the three protocols. You can assume the propagation time is much longer than the transmission time. If a time-out occurs, please mark clearly the assumed time-out interval.   
-  <center><img src="/images/cn-mid-4.jpg" width="400" title="Question No. 4." alt="Question No. 4."/></center>
   (a) (10%) Please finish the above figure based on Go-back-N.   
   (b) (10%) Please finish the above figure based on Selective-Repeat.  
   (c) (10%) Please finish the above figure based on TCP. (Note you can assume the window size is 5 at the beginning.)   
   (d) (5%) If the time-out values for all three protocols are much longer than 5 RTT, then which protocol successfully delivers all six data segments in the shortest time interval?   
-
+  <center><img src="/images/cn-mid-4.jpg" width="400" title="Question No. 4." alt="Question No. 4."/></center>  
 --- 
 
 (to be continued...)
