@@ -557,6 +557,9 @@ Figure for question number 4:
   (c) Can do fast retransmit, no wait for TO.  
   (d) TCP  
 
+
+Figure for answer 3: 
+  <center><img src="/images/cn-mid-3a.png" width="400" title="No. 3." alt="No. 3."/></center>  
 Figure for answer 4 (a): 
   <center><img src="/images/cn-mid-4a.jpg" width="400" title="No. 4 (a)." alt="No. 4 (a)."/></center>  
 Figure for answer 4 (b): 
