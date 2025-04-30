@@ -410,13 +410,15 @@ Socket only provides 2 protocols: TCP and UDP.
     * DevRTT = (1 - β) x DevRTT + β x `|`sRTT - ERTT`|`. 
     * Typical β = 0.25. 
 * Sending and receiving scenarions:  
+
 [show figure sending and receiving]:  
-  * Sender:
+
+  * Sender:  
     * Event (when a data received): then create segment & segment number, start timer to transmit to the next destination.
     * Event time out: retransmit, restart timer. 
     * Event ACK: if ACK updated, start timer for the next unACK.
-  * Receiver:
-    * Cases:  
+  * Receiver:  
+    * Cases:    
       * Arrival of all segments --> delay ACK for time interval (0.5s), send ACK. 
       * Arrival of one ack pending --> send single cummulative ACK. 
       * Out of oders --> duplicate ACK. 
