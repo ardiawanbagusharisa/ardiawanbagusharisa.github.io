@@ -1,0 +1,204 @@
+---
+layout: post
+title: "SDLC: Agile & DevOps"
+date: 2025-04-30 00:0:00 +0800
+categories: Programming 
+tags: ["Software Development", "Agile", "DevOps"] 
+---
+
+In this note, I want to discuss two most popular SDLC in modern time and also feasible to do in the small scale. Here is the overview:  
+
+**Agile**: popular because it employes iterative development, continuous feedback, adaptability to change, and strong customer collaboration make Agile the top choice, especially for startups, SaaS, and mobile app development. Common frameworks: Scrum, Kanban.
+
+**DevOps**: (often considered an evolution of Agile) it emphasizes automation, continuous integration/delivery (CI/CD), and collaboration between development and operations teams, crucial for cloud-native and microservices-based architectures. Common tools: Jenkins, Docker, Kubernetes, GitHub Actions. 
+
+---
+
+# Agile 
+
+Agile is a software development methodology that emphasizes:
+* Iterative and incremental delivery
+* Customer collaboration
+* Responding to change
+* Working software over documentation
+
+Rather than delivering everything at once at the end (like Waterfall), Agile delivers small, working pieces of software frequently (e.g., every 1–4 weeks), allowing teams to adapt and improve as they go.
+
+Some Principles:  
+* Continuous and frequent delivery -> Satisfy customer request. 
+* Welcome changing requirements -> Simplicity is essential (don't get too attached). Make it work, not too beautiful. 
+* Sustainable development -> Right pace (avoid burnout).
+* Regular reflection and adjustment (retrospectives) -> Better results. 
+
+## Agile Lifecycle 
+
+Here's how Agile typically works in a loop:
+1. **Concept**: High-level product vision, requirements, and roadmap.
+2. **Iteration Planning**: Choose which features/stories to implement in the next short cycle (called a sprint or iteration).
+3. **Iteration (1–4 weeks)**: 
+   * Daily Standups (15-min team syncs)
+   * Development, testing, and integration of features
+4. **Demo/Review**: Show working software to stakeholders.
+5. **Retrospective**: Reflect on what went well, what didn’t, and how to improve.
+6. **Repeat**: Each sprint builds on the previous one, allowing for frequent delivery and course correction.
+
+## Common Agile framework
+
+Agile is a philosophy, not a strict process. These are popular implementations of Agile:
+* **Scrum**: Most popular. Fixed-length sprints (1–4 weeks), defined roles (Product Owner, Scrum Master, Team), backlog grooming, retrospectives, etc.
+* **Kanban**: Visualize work on a board. Limit work in progress (WIP), optimize flow. Great for maintenance/operations.  
+
+Pros & Cons: 
+* Pros: 
+  * Faster delivery of usable software
+  * High adaptability to change
+  * Improved product quality (thanks to continuous testing)
+  * Greater customer involvement and satisfaction
+  * Better team collaboration and morale
+* Cons: 
+  * Needs skilled team members and strong communication
+  * May face resistance from clients expecting detailed upfront plans 
+
+## Study Case: Agile with Scrum in 2D Game Development
+
+**1. Scrum core concepts** 
+* Sprint Duration: 2 weeks
+* Roles:
+  * Product Owner (PO): Bob (defines backlog, priorities)
+  * Scrum Master (SM): Alice (facilitates ceremonies)
+  * Development Team: All three (shared responsibilities)
+
+**2. Product Backlog**
+
+ID | Title | Description | Priority
+-- | -- | -- | --
+#1 | Player Actions | Implement all four actions. | High
+#2 | Physics | Logic of collisions | Medium 
+#3 | Control Input | Define inputs and API | Medium 
+#4 | UIs | Display UI on scenes | Low 
+
+**3. Sprint Planning - Sprint 1**
+* Goal: Playable 1v1 sumobot match with basic mechanics.
+* Sprint Backlog:
+  * #1 Player Actions (Alice)
+  * #2 Physics (Bob)
+  * #3 Control Input (Cara) 
+
+**4. Daily Standups (15 min, every morning)**
+* Each team member shares:
+  * What they did yesterday
+  * What they’re doing today
+  * Any blockers
+* Example:
+> Alice: “Yesterday I finished movement. Today I’ll hook it to animation. Blocked by Bob’s physics.”  
+> Bob: “Working on bounce physics. Need input from Cara on control input.”  
+> Cara: “Just finished the button and live command inputs.”  
+
+**5. Sprint Review (End of Sprint 1)**
+* Demo: Show working match with player vs simple NPC, showing basic actions.
+* Feedback: Consider tweaking friction and better NPC system.
+
+**6. Sprint Retrospective**
+* What went well: 
+  * Goot Git practice 
+  * Daily syncs helpful
+  * Sprint goal is defined
+* What could improve:
+  * Physics logic buggy 
+  * No testing done 
+  * NPC is too dumb 
+  * UI is too complicated for current version
+* Action items: 
+  * NPC design at GDD
+  * Playtest checklist 
+  * UI design 
+
+Then, repeat step 3 and redefine the goals etc. 
+
+## Study Case: Agile with Kanban in 2D Game Development
+
+**1. Kanban Basics** 
+* No sprints, just continuous flow, flexible 
+* Work In Progress (WIP) limits: Keep team focused, avoid task overload
+* Kanban Board: Visualize progress. Ex: Trello, Notion, GitHub Project 
+* Cons: May lose structure without a clear goal per time frame
+
+Backlog | To do | In-progress | Review | Done  
+-- | -- | -- | --  | --  
+| #5 Animations <br> #6 SFX <br> #7 VFX |  #3 UI | #1 Player actions | #4 Arena  | #2 Dummy NPC
+
+**2. Task Ownership**
+* Anyone pulls from To Do when their WIP slots are free
+* Once done, tasks move to Review (peer tested by another dev)
+* After review/QA, tasks move to Done 
+* or, task can be assigned by PM 
+
+## Scrum vs Kanban: When to use?
+Situation | Best Model
+-- | --
+You want clear goals every 2 weeks, defined roles, ceremonies. | ✅ Scrum
+You want continuous delivery, more flexibility, less planning overhead. | ✅ Kanban
+
+> You can also use ScrumBan (hybrid) if your team evolves over time. 
+
+---
+
+# DevOps. 
+
+DevOps is a culture, set of practices, and toolchain that integrates development (Dev) and operations (Ops) teams to enable:
+* Faster, more reliable software delivery
+* Automation of build, test, deploy, and monitor pipelines
+* Continuous Integration (CI) and Continuous Delivery/Deployment (CD)
+
+> While Agile focuses on how software is developed, DevOps focuses on how software is built, tested, delivered, and maintained.
+
+**DevOps Lifecycle (Continuous Loop)**  
+`PLAN → DEVELOP → BUILD → TEST → RELEASE → DEPLOY → OPERATE → MONITOR → (feedback back to PLAN)`. 
+
+Stage | Description | Tools
+-- | -- | --
+Plan | Define features and priorities | Jira, Azure Boards
+Develop | Write code, collaborate | Git, GitHub, GitLab
+Build | Compile, package | MSBuild, Maven, Gradle
+Test | Automated/unit/integration tests | NUnit, xUnit, Selenium
+Release | Prep for deployment | Octopus Deploy, GitHub Actions
+Deploy | Push to production | Docker, Kubernetes, Azure Pipelines
+Operate | Keep system running | Kubernetes, AWS, Azure
+Monitor | Track errors, performance | Prometheus, Grafana, ELK Stack 
+
+**When to Use DevOps**
+* When you're ready to automate deployment, testing, and scaling.
+* When you're managing cloud infrastructure or containerized apps. 
+* Ideal for microservices, cloud-native, or always-on systems. 
+* Focus is on reliability, uptime, automation, and monitoring. 
+
+--- 
+
+# Agile vs DevOps
+
+**Differences**  
+Feature | Agile | DevOps
+-- | -- | --
+Focus | Development process | Delivery & operations pipeline
+Goal | Deliver working software quickly | Deliver software and ensure it runs smoothly
+Teams | Dev-centric | Dev + Ops + QA + Infra
+Feedback loops | From stakeholders & users | From monitoring & infrastructure
+Deliverable | Working, tested features | Deployable, reliable software
+Tools | Jira, Trello, Kanban boards | Git, Docker, Jenkins, Kubernetes
+Frequency | Iterations/sprints | Continuous delivery
+
+> Agile is about how you build; DevOps is about how you ship and run. 
+
+**When to use Agile and DevOps** 
+
+Example:  
+1. You work in sprints (Agile) to develop your Unity sumobot game. You also set up a CI/CD pipeline (DevOps) to automatically:
+2. Run unit tests after each Git push
+3. Build your WebGL version
+4. Deploy to itch.io or Firebase hosting
+5. Alert you via Slack if something fails
+
+> Best practice: Use Agile for development and DevOps for delivery.  
+
+> Fast, incremental progress (Agile).  
+> Reliable, automated delivery (DevOps).  
