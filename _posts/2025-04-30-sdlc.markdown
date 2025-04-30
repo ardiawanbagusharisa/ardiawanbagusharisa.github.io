@@ -125,7 +125,7 @@ Then, repeat step 3 and redefine the goals etc.
 
 Backlog | To do | In-progress | Review | Done  
 -- | -- | -- | --  | --  
-| #5 Animations <br> #6 SFX <br> #7 VFX |  #3 UI | #1 Player actions | #4 Arena  | #2 Dummy NPC
+#5 Animations <br> #6 SFX <br> #7 VFX |  #3 UI | #1 Player actions | #4 Arena  | #2 Dummy NPC  
 
 **2. Task Ownership**
 * Anyone pulls from To Do when their WIP slots are free
@@ -134,12 +134,13 @@ Backlog | To do | In-progress | Review | Done
 * or, task can be assigned by PM 
 
 ### Scrum vs Kanban: When to use?
-Situation | Best Model
--- | --
-You want clear goals every 2 weeks, defined roles, ceremonies. | ✅ Scrum
-You want continuous delivery, more flexibility, less planning overhead. | ✅ Kanban
 
-> You can also use ScrumBan (hybrid) if your team evolves over time. 
+Situation | Best Model  
+-- | --
+You want clear goals every 2 weeks, defined roles, ceremonies. | ✅ Scrum  
+You want continuous delivery, more flexibility, less planning overhead. | ✅ Kanban  
+
+> You can also use ScrumBan (hybrid) if your team evolves over time.  
 
 ---
 
@@ -177,6 +178,7 @@ Monitor | Track errors, performance | Prometheus, Grafana, ELK Stack
 ## Agile vs DevOps
 
 **Differences**  
+
 Feature | Agile | DevOps  
 -- | -- | --  
 Focus | Development process | Delivery & operations pipeline  
