@@ -14,7 +14,7 @@ In this note, I want to discuss two most popular SDLC in modern time and also fe
 
 ---
 
-# Agile 
+## Agile 
 
 Agile is a software development methodology that emphasizes:
 * Iterative and incremental delivery
@@ -30,7 +30,7 @@ Some Principles:
 * Sustainable development -> Right pace (avoid burnout).
 * Regular reflection and adjustment (retrospectives) -> Better results. 
 
-## Agile Lifecycle 
+### Agile Lifecycle 
 
 Here's how Agile typically works in a loop:
 1. **Concept**: High-level product vision, requirements, and roadmap.
@@ -42,7 +42,7 @@ Here's how Agile typically works in a loop:
 5. **Retrospective**: Reflect on what went well, what didn’t, and how to improve.
 6. **Repeat**: Each sprint builds on the previous one, allowing for frequent delivery and course correction.
 
-## Common Agile framework
+### Common Agile framework
 
 Agile is a philosophy, not a strict process. These are popular implementations of Agile:
 * **Scrum**: Most popular. Fixed-length sprints (1–4 weeks), defined roles (Product Owner, Scrum Master, Team), backlog grooming, retrospectives, etc.
@@ -59,7 +59,7 @@ Pros & Cons:
   * Needs skilled team members and strong communication
   * May face resistance from clients expecting detailed upfront plans 
 
-## Study Case: Agile with Scrum in 2D Game Development
+### Study Case: Agile with Scrum in 2D Game Development
 
 **1. Scrum core concepts** 
 * Sprint Duration: 2 weeks
@@ -115,7 +115,7 @@ ID | Title | Description | Priority
 
 Then, repeat step 3 and redefine the goals etc. 
 
-## Study Case: Agile with Kanban in 2D Game Development
+### Study Case: Agile with Kanban in 2D Game Development
 
 **1. Kanban Basics** 
 * No sprints, just continuous flow, flexible 
@@ -133,7 +133,7 @@ Backlog | To do | In-progress | Review | Done
 * After review/QA, tasks move to Done 
 * or, task can be assigned by PM 
 
-## Scrum vs Kanban: When to use?
+### Scrum vs Kanban: When to use?
 Situation | Best Model
 -- | --
 You want clear goals every 2 weeks, defined roles, ceremonies. | ✅ Scrum
@@ -143,7 +143,7 @@ You want continuous delivery, more flexibility, less planning overhead. | ✅ Ka
 
 ---
 
-# DevOps. 
+## DevOps. 
 
 DevOps is a culture, set of practices, and toolchain that integrates development (Dev) and operations (Ops) teams to enable:
 * Faster, more reliable software delivery
@@ -174,18 +174,18 @@ Monitor | Track errors, performance | Prometheus, Grafana, ELK Stack
 
 --- 
 
-# Agile vs DevOps
+## Agile vs DevOps
 
 **Differences**  
-Feature | Agile | DevOps
--- | -- | --
-Focus | Development process | Delivery & operations pipeline
-Goal | Deliver working software quickly | Deliver software and ensure it runs smoothly
-Teams | Dev-centric | Dev + Ops + QA + Infra
-Feedback loops | From stakeholders & users | From monitoring & infrastructure
-Deliverable | Working, tested features | Deployable, reliable software
-Tools | Jira, Trello, Kanban boards | Git, Docker, Jenkins, Kubernetes
-Frequency | Iterations/sprints | Continuous delivery
+Feature | Agile | DevOps  
+-- | -- | --  
+Focus | Development process | Delivery & operations pipeline  
+Goal | Deliver working software quickly | Deliver software and ensure it runs smoothly  
+Teams | Dev-centric | Dev + Ops + QA + Infra  
+Feedback loops | From stakeholders & users | From monitoring & infrastructure  
+Deliverable | Working, tested features | Deployable, reliable software  
+Tools | Jira, Trello, Kanban boards | Git, Docker, Jenkins, Kubernetes  
+Frequency | Iterations/sprints | Continuous delivery  
 
 > Agile is about how you build; DevOps is about how you ship and run. 
 
