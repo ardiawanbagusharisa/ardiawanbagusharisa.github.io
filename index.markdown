@@ -15,9 +15,7 @@ I am Originally from Central Java, Indonesia. Currently living in Taipei, Taiwan
 
 Language: Indonesian, English, currently learning Mandarin.  
 
-I believe that I can help you to leverage your effort to reach your goal. Just contact me at:  
-Email: ardiawanbagusharisa@gmail.com  
-Web: [ardiawanbagusharisa.github.io](https://www.ardiawanbagusharisa.github.io)  
+I believe that I can help you to leverage your effort to reach your goal. Just contact me at: ardiawanbagusharisa@gmail.com  
 
 --- 
 
@@ -36,7 +34,7 @@ I want to learn DevOps and LLM in my next roadmap.
     * Researching on PCG and game AI for a Game AI competition platform. 
 * **Creative Director** at **Dhadhu Cafe** (Aug 2019 - Present)  
     * Manage a board game cafe business including business development and creative development. 
-* **Lecturer & Researcher** at **UDINUS** (Sep 2018 - Present) 
+* **Lecturer & Researcher** at **UDINUS** (Sep 2018 - 2025) 
     * Research and teach on game development, programming, and AI. 
 * **Project Manager** at **Pandonga Creatives** (Aug 2019 - Jul 2024) 
     * Manage the dev team to create multimedia software, including web, game, app. 
@@ -106,13 +104,11 @@ Here are some of my portfolios:
   * [Scholar][Scholar]
   * [LinkedIn][LinkedIn] 
   * [GitHub][GitHub]
-  * [Web][Web]  
 
 <br>  
 
 Press `ctrl + p` to save my CV as a pdf. 😄  
 
-[Scholar]: https://scholar.google.com/citations?user=cnGMg2EAAAAJ&hl=en&oi=ao 
+[Scholar]: https://scholar.google.com/citations?user=SxBAYSQAAAAJ&hl=en 
 [LinkedIn]: https://www.linkedin.com/in/ardiawanbagusharisa/
 [GitHub]: https://github.com/ardiawanbagusharisa 
-[Web]: https://harisa.id/
