@@ -11,9 +11,7 @@ layout: default
 
 I am an enthusiastic researcher experienced in game development and AI, and I love sharing my knowledge. I do digital and board games development and design. I am currently doing a PhD at NTUST's Computer Science focusing on PCG and Game AI, while also running a board game cafe as a Creative Director. I also have some experiences as a lecturer in University, and a project manager (side job) at my own small software company.  
 
-I am Originally from Central Java, Indonesia. Currently living in Taipei, Taiwan.  
-
-Language: Indonesian, English, currently learning Mandarin.  
+I was born in July, 20th, 1992 and I am Originally from Central Java, Indonesia. Currently living in Taipei, Taiwan. I am native Indonesian, I use English daily, and I am currently learning Mandarin. 
 
 I believe that I can help you to leverage your effort to reach your goal. Just contact me at: ardiawanbagusharisa@gmail.com  
 
@@ -110,9 +108,9 @@ Here are some none game-related portfolios:
 --- 
 
 * More on:
-  * [Scholar][Scholar]
-  * [LinkedIn][LinkedIn] 
-  * [GitHub][GitHub]
+  * [Scholar: https://scholar.google.com/citations?user=SxBAYSQAAAAJ&hl=en][Scholar] 
+  * [LinkedIn: https://www.linkedin.com/in/ardiawanbagusharisa/][LinkedIn] 
+  * [GitHub: https://github.com/ardiawanbagusharisa][GitHub]
 
 <br>  
 
