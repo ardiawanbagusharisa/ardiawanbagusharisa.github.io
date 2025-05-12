@@ -86,7 +86,7 @@ I want to learn DevOps and LLM in my next roadmap.
 --- 
 
 ### Portfolios 
-Here are some of my portfolios: 
+Here are some of my game-related portfolios: 
 
 * **Neverinth (Procedural Dungeon)**: As an outsource team, we create the procedural system to generate the Dungeon for Neverinth. [Steam link](https://store.steampowered.com/app/966430/Neverinth/).   
 <center><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/966430/ss_aebb467f60b954cdf32a9b8c9174dafc2df98d9d.600x338.jpg?t=1726814713" width="500" title="Neverinth" alt="Neverinth"/></center>  
@@ -100,6 +100,15 @@ Here are some of my portfolios:
 * **Game Design Book**: I have written a game design book "Game Startup Manual: Game Design". It is available at [Amazon](https://www.amazon.com/Game-Startup-Manual-Design/dp/B0CP6J2KHS), but I also share the [free version](https://github.com/ardiawanbagusharisa/gamestartupmanual). *Edit: Actually, I forgot that I also wrote another book: [Board Game Cafe Management](https://www.amazon.com/Board-Management-Ardiawan-Bagus-Harisa-ebook/dp/B0CW1H7TYW/ref=sr_1_1?dib=eyJ2IjoiMSJ9.jOdaqumC7502_bixfdeiwtxUOcDi6mR3V6URa4ttbag.SViVelBI9iX_X99t56HrIhF1dQ1b_TqQk97PCXK-Tpo&dib_tag=se&qid=1744472871&refinements=p_27%3AArdiawan+Bagus+Harisa&s=books&sr=1-1&text=Ardiawan+Bagus+Harisa).
 <center><img src="https://m.media-amazon.com/images/I/41xdayf22iL._SY445_SX342_.jpg" width="250" title="VR" alt="VR"/></center>   
    
+<br>  
+  
+Here are some none game-related portfolios:  
+* **Simple ERP**: As a project manager, I managed my team to create marketing and resource planning for a marketing company in Central Java. Here, I learned how to communicate with non-technical partners to deliver their values to market. 
+
+* **Crime Mapping & Gun Analytic**: As a project manager, working with my team to help *secret division* in Central Java Police Department to design the system architecture and lead the development. I learned how to be more diplomatic while also trying to ship the application in crucial times. 
+
+--- 
+
 * More on:
   * [Scholar][Scholar]
   * [LinkedIn][LinkedIn] 
