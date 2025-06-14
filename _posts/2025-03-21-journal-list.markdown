@@ -46,6 +46,7 @@ The followings are list of game journals and conferences.
 | Name | Rank | Description |
 | --- | --- | --- |
 | [Game Studies](https://gamestudies.org/2003) | Q4 <br> IF:- <br> Scopus | Focus on aesthetic, cultural and communicative aspects of computer games, but any previously unpublished article focused on games and gaming is welcome. Proposed articles should be jargon-free, and should attempt to shed new light on games, rather than simply use games as metaphor or illustration of some other theory or phenomenon. <br> Publication: April, july, September, December. | 
+| [Journal on Interactive Systems](https://journals-sol.sbc.org.br/index.php/jis) | Q4 <br> IF: 0.2 <br> Scopus | The Journal on Interactive Systems (JIS) covers all the aspects related to the design, development, evaluation, and use of interactive computing systems and the effects of their use in different domains. <br> Publication: January. |  
 
 ## Scopus-indexed AI non-Game Journals 
 
