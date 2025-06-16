@@ -411,7 +411,7 @@ Socket only provides 2 protocols: TCP and UDP.
     * Typical β = 0.25. 
 * Sending and receiving scenarions:  
 
-[show figure sending and receiving]:  
+[show figure sending and receiving]
 
   * Sender:  
     * Event (when a data received): then create segment & segment number, start timer to transmit to the next destination.
