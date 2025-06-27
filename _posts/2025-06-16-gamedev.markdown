@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Game Development Introdution with Unreal and Unity"
+date: 2025-06-16 00:0:00 +0800
+categories: Programming 
+tags: ["Game Development", "Unreal", "Unity"] 
+---
+
+Just a simple compilation of references on game development introduction using Unreal Engine (`c++`) and Unity Engine (`c#`). 
+
+---
+
+## Unity  
+1. Unity Learn: [https://learn.unity.com/](https://learn.unity.com/)
+
+## Unreal  
+1. Unreal Learn: [https://dev.epicgames.com/community/unreal-engine/learning?types=learning_path&applications=5_unreal_engine&is_beginner=true](https://dev.epicgames.com/community/unreal-engine/learning?types=learning_path&applications=5_unreal_engine&is_beginner=true)
