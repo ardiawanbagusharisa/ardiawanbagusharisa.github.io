@@ -60,6 +60,7 @@ I want to learn DevOps and LLM in my next roadmap.
 
 ### Certifications 
 * Unity Certified Associate: Programmer
+* Foundational C# with Microsoft
 * IELTS band 6.5
 
 --- 
