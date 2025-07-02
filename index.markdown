@@ -119,4 +119,6 @@ Press `ctrl + p` to save my CV as a pdf. 😄
 
 [Scholar]: https://scholar.google.com/citations?user=SxBAYSQAAAAJ&hl=en 
 [LinkedIn]: https://www.linkedin.com/in/ardiawanbagusharisa/
-[GitHub]: https://github.com/ardiawanbagusharisa 
+[GitHub]: https://github.com/ardiawanbagusharisa  
+
+--- 
