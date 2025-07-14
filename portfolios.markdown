@@ -32,6 +32,21 @@ permalink: /portfolios/
   </div>
   <div style="flex: 1;">
     <p>
+    </p>
+  </div>
+</div>
+
+#### VR 
+
+<div style="display: flex; gap: 10px;">
+  <div style="flex: 1;">
+    <p>
+      <iframe width="100%" height="300" src="https://www.youtube.com/embed/cOY-xECjNFY" frameborder="0" allowfullscreen></iframe>  
+      VR for showcase and marketing: real estate, products, and more.  
+    </p>
+  </div>
+  <div style="flex: 1;">
+    <p>
       <img src="https://github.com/Lazzlax/VR_ADHD-Detection/blob/master/Assets/Wiki/Main%20Menu.png?raw=true" width="100%" title="VR" alt="VR"/>   
       VR for ADHD detection
     </p>
