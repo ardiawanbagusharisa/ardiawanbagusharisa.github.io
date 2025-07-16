@@ -82,7 +82,9 @@ Now, after you know the back stories of the character, you can then setup the co
 
 Example:  
 
-`Young Guy was born in a very unfortunate family and being orphan since the day 1 in the BroomWood. Nobody seems really care except the old witch which villagers don't really consider as their good neighbor. In growing there, an urban legend was told in the woods; any one who go to the ruins in the woods will end in the tragic ending and will be marked as cursed.` 
+```
+Young Guy was born in a very unfortunate family and being orphan since the day 1 in the BroomWood. Nobody seems really care except the old witch which villagers don't really consider as their good neighbor. In growing there, an urban legend was told in the woods; any one who go to the ruins in the woods will end in the tragic ending and will be marked as cursed.
+``` 
 
 ## 3. Dreams 
 
@@ -96,7 +98,9 @@ There is an approach on how to enrich your character's story, one of them is by 
 
 Example:  
 
-`I dreamt that I was in a thick fog holding me on to something dark and big in both hands and all of sudden I was being pulled away from it. They start to whisper "Come here, now!" and then they started yelling "I will find you". Then I woke up in middle of nowhere in the woods. I don't know where am I, but, I can see the ruins.`
+```
+I dreamt that I was in a thick fog holding me on to something dark and big in both hands and all of sudden I was being pulled away from it. They start to whisper "Come here, now!" and then they started yelling "I will find you". Then I woke up in middle of nowhere in the woods. I don't know where am I, but, I can see the ruins.
+```
 
 ---
 
