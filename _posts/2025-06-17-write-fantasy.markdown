@@ -8,7 +8,7 @@ tags: ["Writing", "Narrative"]
 
 Want to start to write a fantasy? Let's start with very simple steps that is easy to follow to create characters. Whether you want to write your own one-shot campaign for tabletop-roleplaying game, or even longer novel, let's take your pen and paper, and just start.
 
-# What's a fantasy? 
+## What's a fantasy? 
 
 Some most common tag under the fantasy writing genres, and I believe you heard, are: magic, mythology, monster, elves, and so on. Even you may heard the science, steampunk, and more tech fantasy as well. Those and everything you have ever imagined (or not even), most probably belong under the same great genre, fantasy. Here are some fantasies I love the most with very different ambience and coming from different mediums:  
 1. Naruto 
@@ -22,7 +22,7 @@ Even in the ancient scriptures of Buddhist texts, Bible, Torah, Quran, Baghavad-
 
 Any way, the one of the key aspect in writing a fantasy, even though it's fantasy, is creating a believable character in some sense. 
 
-# Characterization
+## Characterization
 
 1. **Emotionally connected**: Readers connect with characters who have clear emotions, act in a way that makes sense within their world (reasonable), and have reasons for their actions (motive).  
 2. **Tell the reader like you tell the character**: (authenticity) focus on making characters feel authentic and multidimensional, almost as if they are real people you are interacting with. Imagine talking with your character like it's really alive next to you. 
@@ -31,7 +31,7 @@ Any way, the one of the key aspect in writing a fantasy, even though it's fantas
 
 After you have list of characters, go to the next step to make it alive. 
 
-# The 8 steps to bring your characters to life  
+## The 8 steps to bring your characters to life  
 
 1. Timelines
 2. Back-stories 
@@ -42,7 +42,7 @@ After you have list of characters, go to the next step to make it alive.
 7. Profile 
 8. Semantic mapping 
 
-## 1. Timelines 
+### 1. Timelines 
 
 For easiness, you can start to construct the timelines for your characters with the following key elements.  
 
@@ -70,7 +70,7 @@ For easiness, you can start to construct the timelines for your characters with 
 
 This timeline note will help you to remember the main event of the characters as the story's backbone. You can try to make 2-3 character timelines with half of the events are overalapping (you will need more overlapping events for more complex story). Don't forget to mention the condition and the roles of the character in those event (acting, being acted, or spectacting?). 
 
-## 2. Backstories
+### 2. Backstories
 
 Now, it's should be easier for you to create the backstories of a character, right? Just use the timeline to expand the stories. 
 
@@ -86,7 +86,7 @@ Example:
 Young Guy was born in a very unfortunate family and being orphan since the day 1 in the BroomWood. Nobody seems really care except the old witch which villagers don't really consider as their good neighbor. In growing there, an urban legend was told in the woods; any one who go to the ruins in the woods will end in the tragic ending and will be marked as cursed.
 ``` 
 
-## 3. Dreams 
+### 3. Dreams 
 
 There is an approach on how to enrich your character's story, one of them is by giving them a dream. This should not always be a dream, it could be a some dreamly-sights as well. 
 
