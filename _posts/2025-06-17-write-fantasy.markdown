@@ -8,6 +8,8 @@ tags: ["Writing", "Narrative"]
 
 Want to start to write a fantasy? Let's start with very simple steps that is easy to follow to create characters. Whether you want to write your own one-shot campaign for tabletop-roleplaying game, or even longer novel, let's take your pen and paper, and just start.
 
+Why though? Well, one thing I usually do before and after giving a lecture is to motivate my students. One of the approach is by storytelling - giving them motivational story of big figures on why and how they succeeded. So, by learning how to start writing and tell a fantasy story, we can also build up or storytelling (not necessarily a fantasy) to deliver our messages to our audiences. Hence, it could be a worth skill for you as well. 
+
 ## What's a fantasy? 
 
 Some most common tag under the fantasy writing genres, and I believe you heard, are: magic, mythology, monster, elves, and so on. Even you may heard the science, steampunk, and more tech fantasy as well. Those and everything you have ever imagined (or not even), most probably belong under the same great genre, fantasy. Here are some fantasies I love the most with very different ambience and coming from different mediums:  
@@ -101,6 +103,18 @@ Example:
 ```
 I dreamt that I was in a thick fog holding me on to something dark and big in both hands and all of sudden I was being pulled away from it. They start to whisper "Come here, now!" and then they started yelling "I will find you". Then I woke up in middle of nowhere in the woods. I don't know where am I, but, I can see the ruins.
 ```
+
+### 3. Closets and Clothes 
+
+There are several aspects that can help you to imagine the visual of the characters. From the book that I read, it considered as the clothes and the available alternatives. But actually, not necessarily the clothes. It could means the visual appearances of the characters with all of the properties. Knowing these details will help your audience imagining the narrative universe you are telling, better immersion.  
+
+* **Style**: Reflects culture, tradition, or personal identity. Example: Renaissance, middle ages, romance, tribal, etc?
+
+* **Colors**: Certain colors may have symbolic or magical meaning. Example: in the middle east, black or white could be a common color to represent the pure individual, slave to God.
+
+* **Function**: Most of the time it is better to associate the properties of our character with something related to the story; associated with certain things on the plot to serve a purpose even for a small one . For example: Is it ceremonial-related? 
+
+* **Closet**: Think that your character is just like you, you have several visual alternatives. But, try to keep it simple and not to distinct; as our goal is to shape the character appearances to be easier to remember except for some events. One of the easy examples to create this appearance closet is by imagining the living environment and habit of your character. 
 
 ---
 
