@@ -9,45 +9,60 @@ layout: default
 
 ### About me
 
-I am an enthusiastic researcher experienced in game development and AI, and I love sharing my knowledge. I do digital and board games development and design. I am currently doing a PhD at NTUST's Computer Science focusing on PCG and Game AI, while also running a board game cafe as a Creative Director. I also have some experiences as a lecturer in University, and a project manager (side job) at my own small software company.  
+<!-- Game CV--> 
+I am an enthusiastic developer who loves doing digital and board games development and design. I am currently studying at NTUST’s Computer Science focusing on PCG and Game AI. I have some experiences as a lecturer in University, and a project manager.
+
+I was born in 1992 and I am Originally from Central Java, Indonesia. I am native Indonesian, but I also use English almost daily.
+
+I believe that I can help you to leverage your effort to reach your goal. Just contact me at: ardiawanbagusharisa@gmail.com
+
+<!-- PhD CV--> 
+<!-- I am an enthusiastic researcher experienced in game development and AI, and I love sharing my knowledge. I do digital and board games development and design. I am currently doing a PhD at NTUST's Computer Science focusing on PCG and Game AI, while also running a board game cafe as a Creative Director. I also have some experiences as a lecturer in University, and a project manager (side job) at my own small software company.  
 
 I was born in July, 20th, 1992 and I am Originally from Central Java, Indonesia. Currently living in Taipei, Taiwan. I am native Indonesian, I use English daily, and I am currently learning Mandarin. 
 
 I believe that I can help you to leverage your effort to reach your goal. Just contact me at: ardiawanbagusharisa@gmail.com  
-
+-->
 --- 
 
 ### Skills 
-* Programming: C++, C#, GDScript  
+* Programming: C#, C++, GDScript, Python  
 * Research interest: Procedural Content Generation (PCG), Game AI, Game Design  
-* Software Lifecycle: Agile
-* Tools & Other: Unity, Godot, Git, .NET, PostGreSQL
+* Tools: Unity, Godot, Git, .NET, PostGreSQL, VR
+* Other skills: Software lifecycle, Project management, Business development
 
+I am currently learning AI/ML, LLM, and want to learn back-end in my next roadmap.  
+
+<!--
 I want to learn DevOps and LLM in my next roadmap. 
-
+-->
 --- 
 
 ### Experience
+<!--
 * **PhD Student Researcher** at **NTUST** (Feb 2025 - Present)     
     * Researching on PCG and game AI for a Game AI competition platform. 
-* **Creative Director** at **Dhadhu Cafe** (Aug 2019 - Present)  
-    * Manage a board game cafe business including business development and creative development. 
+-->
+* **Creative Director** at **Dhadhu Cafe** (Aug 2019 - 2026)  
+    * Build and manage a board game cafe business including business development and creative development. 
 * **Lecturer & Researcher** at **UDINUS** (Sep 2018 - 2025) 
     * Research and teach on game development, programming, and AI. 
 * **Project Manager** at **Pandonga Creatives** (Aug 2019 - Jul 2024) 
     * Manage the dev team to create multimedia software, including web, game, app. 
 * **Freelance Game Programmer** (Aug 2014 - Feb 2016) 
-    * Create digital games. 
+    * Provide service of digital games development. 
 
 --- 
 
 ### Education 
+<!--
 * **PhD - Computer Science** - **NTUST**, Feb 2025 - Present (On-going)
   * Researching on PCG and game AI for a Game AI competition platform. 
+-->
 * **Master - Computer Science** - **NTUST**, Feb 2016 - 2018.
-  * Research on procedural game level generation. 
+  * Research on procedural game level generation and game AI. 
 * **Bachelor - Computer Science** - **UDINUS**, Feb 2025 - Present
-  * Research on dynamic diffuculty adjustment. 
+  * Research on dynamic diffuculty adjustment and game AI. 
 
 --- 
 
@@ -73,17 +88,6 @@ I want to learn DevOps and LLM in my next roadmap.
 
 --- 
 
-### Publication  
-* 2024 - Alternating Sword Controller in First-Person Action Game using Fuzzy Logic for Adaptive Enemy.  
-* 2024 - Procedural Low-Poly Buildings using L-System for Turn-based Tactic Game MECH. AI. 
-* 2024 - Learning through play: Utilizing board games to enhance english vocabulary for early students. 
-* 2023 - Threat construction for dynamic enemy status in a platformer game using classical genetic algorithm. 
-* 2022 - Pacing-based procedural dungeon level generation: Alternating level creation to meet designer’s expectations.
-* 2022 - Board Game Design for Conservation Organization: A study on the Board Game for Campaign on Indonesian Javan Hawk-Eagle Conservation Foundation. 
-* 2021 - Appreciative learning for immersive reward system in education game development.
-
---- 
-
 ### Portfolios 
 Here are some of my game-related portfolios: 
 
@@ -105,6 +109,18 @@ Here are some none game-related portfolios:
 * **Simple ERP**: As a project manager, I managed my team to create marketing and resource planning for a marketing company in Central Java. Here, I learned how to communicate with non-technical partners to deliver their values to market. 
 
 * **Crime Mapping & Gun Analytic**: As a project manager, working with my team to help *secret division* in Central Java Police Department to design the system architecture and lead the development. I learned how to be more diplomatic while also trying to ship the application in crucial times. 
+
+--- 
+
+### Publication  
+* Pacing Control with Wave Function Collapse in Strategy Game Map Generation. 
+* 2025- Board Game Cafe Analysed: Analysis on Sales and Games at Dhadhu Cafe. 
+* 2024 - Alternating Sword Controller in First-Person Action Game using Fuzzy Logic for Adaptive Enemy.  
+* 2024 - Procedural Low-Poly Buildings using L-System for Turn-based Tactic Game MECH. AI. 
+* 2024 - Learning through play: Utilizing board games to enhance english vocabulary for early students. 
+* 2023 - Threat construction for dynamic enemy status in a platformer game using classical genetic algorithm. 
+* 2022 - Pacing-based procedural dungeon level generation: Alternating level creation to meet designer’s expectations.
+* 2022 - Board Game Design for Conservation Organization: A study on the Board Game for Campaign on Indonesian Javan Hawk-Eagle Conservation Foundation. 
 
 --- 
 
