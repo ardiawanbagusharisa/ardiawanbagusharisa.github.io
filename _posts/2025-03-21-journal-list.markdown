@@ -14,7 +14,7 @@ The followings are list of game journals and conferences.
 | --- | --- | --- |
 | [JMIR Serious Games](https://games.jmir.org/) | Q1 <br> IF:3.8 | A multidisciplinary journal on gaming and gamification including simulation and immersive virtual reality for health education/promotion, teaching, medicine, rehabilitation, and social change. <br> Publication: monthly. |
 | [Entertainment Computing](https://www.sciencedirect.com/journal/entertainment-computing/about/aims-and-scope) | Q2 <br> IF:2.8 | Publishes original, peer-reviewed research articles and serves as a forum for stimulating and disseminating innovative research ideas, emerging technologies, empirical investigations, state-of-the-art methods and tools in all aspects of digital entertainment, new media, entertainment computing, gaming, robotics, toys and applications among researchers, engineers, social scientists, artists and practitioners. Theoretical, technical, empirical, survey articles and case studies are all appropriate to the journal. <br> Publication: January, March, June, August. |
-| [IEEE Transaction on Games](https://cis.ieee.org/publications/t-games) | Q2 <br> IF:1.7 | Publishes original high-quality articles covering scientific, technical, and engineering aspects of games. <br> Publication: March, June, September, December. |
+| [IEEE Transaction on Games](https://cis.ieee.org/publications/t-games) | Q2 <br> IF:2.8 | Publishes original high-quality articles covering scientific, technical, and engineering aspects of games. <br> Publication: March, June, September, December. |
 
 
 ## ESCI, SSCI-indexed Game Journals  
@@ -22,37 +22,37 @@ The followings are list of game journals and conferences.
 | Name | Rank | Description |
 | --- | --- | --- |
 | [International Journal of Computer Games Technology](https://onlinelibrary.wiley.com/page/journal/2952/homepage/open-access) | Q3 <br> IF:1.7 <br> ESCI | An open access journal that publishes original research and review articles on both the research and development aspects of games technology covering the whole range of entertainment computing and interactive digital media. <br> Publication: February, June. | 
-| [Games and Culture](https://journals.sagepub.com/home/gac) | Q1 <br> IF:2.4 <br> SSCI | Publishes innovative theoretical and empirical research about games and culture within interactive media. The scope includes the socio-cultural, political, and economic dimensions of gaming from a wide variety of perspectives, including textual analysis, political economy, cultural studies, ethnography, critical race studies, gender studies, media studies, public policy, international relations, and communication studies. <br> Publication: monthly. | 
-| [Simulation and Gaming](https://journals.sagepub.com/overview-metric/SAG) | Q2 <br> IF:1.5 <br> ESCI | Exploration and development of simulation/gaming methodologies used in education, training, consultation, and research. It appraises academic and applied issues in the expanding fields of simulation, computer- and internet-mediated simulation, virtual reality, educational games, video games, industrial simulators, active and experiential learning, case studies, and related methodologies. <br> Publication: bimonthly. | 
-| [International Journal of Serious Games](https://journal.seriousgamessociety.org/index.php/IJSG) | Q2 <br> IF:1.9 <br> ESCI | Publishes original, peer-reviewed, scientific research articles addressing theoretical, experimental and operational aspects in the areas related to design, development, engineering, deployment and assessment of Serious Games (SGs), particularly for teaching and learning.. <br> Publication: March, June, August, November. | 
-| [International Journal of Game-Based Learning (IJGBL)](https://www.igi-global.com/gateway/journal/41019) | Q4 <br> IF:1 <br> ESCI | Multidisciplinary research from fields that explore the cognitive and psychological aspects that underpin successful educational video games. The target audience of the journal is composed of professionals and researchers working in the fields of educational games development, e-learning, technology-enhanced education, multimedia, educational psychology, and information technology. IJGBL promotes an in-depth understanding of the multiple factors and challenges inherent to the design and integration of Game-Based Learning environments. <br> Publication: whole year. | 
-| [International Journal of Information and Learning Technology](https://www.emerald.com/insight/publication/issn/2056-4880 ) | Q2 <br> IF:2.4 <br> ESCI | IJILT provides a forum for the sharing of the latest theories, applications, and services related to planning, developing, managing, using, and evaluating information technologies in administrative, academic, and library computing, as well as other educational technologies. <br> Publication: January, April, June, November. | 
+| [Games and Culture](https://journals.sagepub.com/home/gac) | Q1 <br> IF:1.6 <br> SSCI | Publishes innovative theoretical and empirical research about games and culture within interactive media. The scope includes the socio-cultural, political, and economic dimensions of gaming from a wide variety of perspectives, including textual analysis, political economy, cultural studies, ethnography, critical race studies, gender studies, media studies, public policy, international relations, and communication studies. <br> Publication: monthly. | 
+| [Simulation and Gaming](https://journals.sagepub.com/overview-metric/SAG) | Q2 <br> IF:1.8 <br> ESCI | Exploration and development of simulation/gaming methodologies used in education, training, consultation, and research. It appraises academic and applied issues in the expanding fields of simulation, computer- and internet-mediated simulation, virtual reality, educational games, video games, industrial simulators, active and experiential learning, case studies, and related methodologies. <br> Publication: bimonthly. | 
+| [International Journal of Serious Games](https://journal.seriousgamessociety.org/index.php/IJSG) | Q2 <br> IF:2.2 <br> ESCI | Publishes original, peer-reviewed, scientific research articles addressing theoretical, experimental and operational aspects in the areas related to design, development, engineering, deployment and assessment of Serious Games (SGs), particularly for teaching and learning.. <br> Publication: March, June, August, November. | 
+| [International Journal of Game-Based Learning (IJGBL)](https://www.igi-global.com/gateway/journal/41019) | Q4 <br> IF:1.3 <br> ESCI | Multidisciplinary research from fields that explore the cognitive and psychological aspects that underpin successful educational video games. The target audience of the journal is composed of professionals and researchers working in the fields of educational games development, e-learning, technology-enhanced education, multimedia, educational psychology, and information technology. IJGBL promotes an in-depth understanding of the multiple factors and challenges inherent to the design and integration of Game-Based Learning environments. <br> Publication: whole year. | 
+| [International Journal of Information and Learning Technology](https://www.emerald.com/insight/publication/issn/2056-4880 ) | Q2 <br> IF:2.6 <br> ESCI | IJILT provides a forum for the sharing of the latest theories, applications, and services related to planning, developing, managing, using, and evaluating information technologies in administrative, academic, and library computing, as well as other educational technologies. <br> Publication: January, April, June, November. | 
 
 ## SCIE-indexed AI, Learning Tech non-Game Journals  
 
 | Name | Rank | Description |
 | --- | --- | --- |
-| [International Journal of Intelligence System](https://onlinelibrary.wiley.com/journal/ijis/) | Q1 <br> IF:5 <br> SCIE | Forum for individuals interested in tapping into the vast theories based on intelligent systems construction. Examination, analysis creation, information retrieval, man–computer interactions, and more. <br> Publication: whole year. |
-| [International Journal of Computational Intelligence System](https://link.springer.com/journal/44196) | Q1 <br> IF:2.5 <br> SCIE | An open access journal publishing research in all aspects of applied computational intelligence. <br> Publication: whole year. | 
+| [International Journal of Intelligence System](https://onlinelibrary.wiley.com/journal/ijis/) | Q1 <br> IF:3.7 <br> SCIE | Forum for individuals interested in tapping into the vast theories based on intelligent systems construction. Examination, analysis creation, information retrieval, man–computer interactions, and more. <br> Publication: whole year. |
+| [International Journal of Computational Intelligence System](https://link.springer.com/journal/44196) | Q1 <br> IF:3.0 <br> SCIE | An open access journal publishing research in all aspects of applied computational intelligence. <br> Publication: whole year. | 
 
 ## ESCI-indexed AI, Learning Tech - non-Game Journals   
 
 | Name | Rank | Description |
 | --- | --- | --- |
-| [International Journal of Information and Learning Technology](https://www.emerald.com/insight/publication/issn/2056-4880 ) | Q2 <br> IF:2.4 <br> ESCI | IJILT provides a forum for the sharing of the latest theories, applications, and services related to planning, developing, managing, using, and evaluating information technologies in administrative, academic, and library computing, as well as other educational technologies. <br> Publication: January, April, June, November. | 
+| [International Journal of Information and Learning Technology](https://www.emerald.com/insight/publication/issn/2056-4880 ) | Q2 <br> IF:2.6 <br> ESCI | IJILT provides a forum for the sharing of the latest theories, applications, and services related to planning, developing, managing, using, and evaluating information technologies in administrative, academic, and library computing, as well as other educational technologies. <br> Publication: January, April, June, November. | 
 
 ## Scopus-indexed Game Journals 
 
 | Name | Rank | Description |
 | --- | --- | --- |
-| [Game Studies](https://gamestudies.org/2003) | Q4 <br> IF:- <br> Scopus | Focus on aesthetic, cultural and communicative aspects of computer games, but any previously unpublished article focused on games and gaming is welcome. Proposed articles should be jargon-free, and should attempt to shed new light on games, rather than simply use games as metaphor or illustration of some other theory or phenomenon. <br> Publication: April, july, September, December. | 
+| [Game Studies](https://gamestudies.org/2003) | Q1 <br> IF:1.3 <br> Scopus | Focus on aesthetic, cultural and communicative aspects of computer games, but any previously unpublished article focused on games and gaming is welcome. Proposed articles should be jargon-free, and should attempt to shed new light on games, rather than simply use games as metaphor or illustration of some other theory or phenomenon. <br> Publication: April, july, September, December. | 
 | [Journal on Interactive Systems](https://journals-sol.sbc.org.br/index.php/jis) | Q4 <br> IF: 0.2 <br> Scopus | The Journal on Interactive Systems (JIS) covers all the aspects related to the design, development, evaluation, and use of interactive computing systems and the effects of their use in different domains. <br> Publication: January. |  
 
 ## Scopus-indexed AI non-Game Journals 
 
 | Name | Rank | Description |
 | --- | --- | --- |
-| [IEEE Transaction on Artificial Intelligence](https://cis.ieee.org/publications/ieee-transactions-on-artificial-intelligence) | Q1 <br> IF:4.5 <br> Scopus | A multidisciplinary journal publishing papers on theories and methodologies of Artificial Intelligence. Applications of Artificial Intelligence are also considered. <br> Publication: monthly. |  
+| [IEEE Transactions on Artificial Intelligence](https://cis.ieee.org/publications/ieee-transactions-on-artificial-intelligence) | Q1 <br> IF:4.5 <br> Scopus | A multidisciplinary journal publishing papers on theories and methodologies of Artificial Intelligence. Applications of Artificial Intelligence are also considered. <br> Publication: monthly. |  
 
 ## HQ non-Indexed Game Journals 
 
@@ -72,5 +72,8 @@ The followings are list of game journals and conferences.
 | [IEEE Conference on Games (COG)](https://cog2025.inesc-id.pt/) | Deadline: January → August <br> Fee: 650 Eur | 
 | [International Conference on Entertainment Computing](https://icec2025.entcomp.org/cfp/) | Deadline: March → August conference | 
 | [Digra Conference](https://digra.org/conferences/) | Deadline: November → June conference | 
-| [CEEGS Game Studies Conference](https://ceegs.fsv.cuni.cz/) | Deadline: 14 April → September conference  | 
+| [CEEGS Game Studies Conference](https://ceegs.fsv.cuni.cz/) | Deadline: April → September conference  | 
 | [PCGWorkshop](https://pcgworkshop.com/cfp.php) | Deadline: January → April conference | 
+| [GALA Conference](https://conf.seriousgamessociety.org/) | Deadline: June → November conference | 
+| [FDG](https://fdg2026.org/call-for-papers/) | Deadline: December → August conference | 
+| [ICGA](https://icga.org/?page_id=4105) | Deadline: February → June conference | 

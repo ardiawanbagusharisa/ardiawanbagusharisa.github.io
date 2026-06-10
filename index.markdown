@@ -10,7 +10,7 @@ layout: default
 ### About me
 
 <!-- Game CV--> 
-I am an enthusiastic developer who loves doing digital and board games development and design. I am currently studying at NTUST’s Computer Science focusing on PCG and Game AI. I have some experiences as a lecturer in University, and a project manager.
+I am an enthusiastic developer, researcher, and entrepreneur. I love building stuff and sharing knowledge. I am currently studying at NTUST’s Computer Science focusing on Artificial Intelligence and Games. I have some experiences as a lecturer, a project manager, and a creative director.
 
 I was born in 1992 and I am Originally from Central Java, Indonesia. I am native Indonesian, but I also use English almost daily.
 
@@ -27,7 +27,7 @@ I believe that I can help you to leverage your effort to reach your goal. Just c
 
 ### Skills 
 * Programming: C#, C++, GDScript, Python  
-* Research interest: Procedural Content Generation (PCG), Game AI, Game Design  
+* Research interest: Procedural Content Generation (PCG), Game AI, Business Intelligence
 * Tools: Unity, Godot, Git, .NET, PostGreSQL, VR
 * Other skills: Software lifecycle, Project management, Business development
 
@@ -61,7 +61,7 @@ I want to learn DevOps and LLM in my next roadmap.
 -->
 * **Master - Computer Science** - **NTUST**, Feb 2016 - 2018.
   * Research on procedural game level generation and game AI. 
-* **Bachelor - Computer Science** - **UDINUS**, Feb 2025 - Present
+* **PhD - Computer Science** - **UDINUS**, Feb 2025 - Present
   * Research on dynamic diffuculty adjustment and game AI. 
 
 --- 
@@ -113,14 +113,12 @@ Here are some none game-related portfolios:
 --- 
 
 ### Publication  
-* Pacing Control with Wave Function Collapse in Strategy Game Map Generation. 
-* 2025- Board Game Cafe Analysed: Analysis on Sales and Games at Dhadhu Cafe. 
-* 2024 - Alternating Sword Controller in First-Person Action Game using Fuzzy Logic for Adaptive Enemy.  
+* 2025 - Pacing Control with Wave Function Collapse in Strategy Game Map Generation. 
+* 2025 - Board Game Cafe Analysed: Analysis on Sales and Games at Dhadhu Cafe. 
 * 2024 - Procedural Low-Poly Buildings using L-System for Turn-based Tactic Game MECH. AI. 
 * 2024 - Learning through play: Utilizing board games to enhance english vocabulary for early students. 
 * 2023 - Threat construction for dynamic enemy status in a platformer game using classical genetic algorithm. 
 * 2022 - Pacing-based procedural dungeon level generation: Alternating level creation to meet designer’s expectations.
-* 2022 - Board Game Design for Conservation Organization: A study on the Board Game for Campaign on Indonesian Javan Hawk-Eagle Conservation Foundation. 
 
 --- 
 
